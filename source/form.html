@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/form_style.css">
+    </head>
+    <body>
+        <h2>UP Learning Feedback Form</h1>
+        <form action="/submit">
+            <fieldset>
+                <legend>Select your Organization</legend>
+                <select required>
+                    <option value="Affinity Citywide Office">Affinity Citywide Office</option>
+                    <option value="Bronx Borough Office">Bronx Borough Office</option>
+                    <option value="Brooklyn North Borough Office">Brooklyn North Borough Office</option>
+                    <option value="Brooklyn South Borough Office">Brooklyn South Borough Office</option>
+                    <option value="Central">Central</option>
+                    <option value="Manhattan Borough Office">Manhattan Borough Office</option>
+                    <option value="Queens North Borough Office">Queens North Borough Office</option>
+                    <option value="Queens South Borough Office">Queens South Borough Office</option>
+                    <option value="Staten Island Borough Office">Staten Island Borough Office</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Select an interface</legend>
+                <select required>
+                    <option value="Attendance App">Attendance App</option>
+                    <option value="Event Creation Form">Event Creation Form</option>
+                    <option value="Data and Reports Dashboard">Data and Reports Dashboard</option>
+                    <option value="Facilitator Dashboard">Facilitator Dashboard</option>
+                    <option value="Registration Form">Registration Form</option>
+                    <option value="Registrant Portal">Registrant Portal</option>
+                    <option value="Sign In Form">Sign In Form</option>
+                    <option value="Other">Other</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Your feedback here</legend>
+                <textarea required></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>How urgent is this request/feedback?</legend>
+                <div id="urgency"></div>
+                <input type="range" min="1" max="5" step="1">
+            </fieldset>
+            <fieldset>
+                <legend>
+                    If you're comfortable being contacted with questions enter your email below.
+                </legend>
+                <input type="email" placeholder="email">
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

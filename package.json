@@ -1,0 +1,22 @@
+{
+  "name": "pl_system_fb",
+  "version": "1.0.0",
+  "description": "Collect Feedback for UP Learning",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node source/main.js"
+  },
+  "author": "Nicolas Ries",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
